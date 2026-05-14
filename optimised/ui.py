@@ -5,7 +5,7 @@ class UI:
         pass
 
     def submitResearchOutput(self, data):
-        print("UI: submitResearchOutput(", data, ")")
+        print("UI: submitResearchOutput -", data)
 
         controller = SubmissionController()
         response = controller.submit(data)

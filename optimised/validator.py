@@ -3,7 +3,7 @@ class Validator:
         pass
 
     def validateFormat(self, data):
-        print("Validator: validateFormat(", data, ")")
+        print("Validator: validateFormat -", data)
 
         if data == "Valid":
             return True

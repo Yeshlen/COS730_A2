@@ -13,7 +13,7 @@ class SubmissionController:
         self.notificationService = NotificationService()
 
     def submit(self, data):
-        print("SubmissionController: submit(", data, ")")
+        print("SubmissionController: submit -", data)
 
         formatStatus = self.validator.validateFormat(data)
 

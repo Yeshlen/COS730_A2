@@ -17,7 +17,7 @@ class NotificationService:
     def notifyRevision(self):
         print("NotificationService: notifyRevision()")
 
-        self.result = "Revision Requested"
+        self.result = "Revision Needed"
         self.sendNotification()
 
     def sendNotification(self):

@@ -8,7 +8,7 @@ class Database:
         ]
 
     def saveSubmission(self, data):
-        print("Database: saveSubmission(", data, ")")
+        print("Database: saveSubmission -", data)
         return "Database: confirmation"
 
     def fetchReviewers(self):
@@ -16,5 +16,5 @@ class Database:
         return self.reviewerList
 
     def saveScore(self, score):
-        print("Database: saveScore(", score, ")")
+        print("Database: saveScore -", score)
         return True

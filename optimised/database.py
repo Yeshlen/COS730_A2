@@ -10,7 +10,7 @@ class Database:
         ]
 
     def saveSubmission(self, data):
-        print("Database: saveSubmission(", data, ")")
+        print("Database: saveSubmission -", data)
         self.submissions.append(data)
         return True
 
@@ -19,6 +19,6 @@ class Database:
         return self.reviewerList
 
     def saveScore(self, score):
-        print("Database: saveScore(", score, ")")
+        print("Database: saveScore -", score)
         self.scores.append(score)
         return True

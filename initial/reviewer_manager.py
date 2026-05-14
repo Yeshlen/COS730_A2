@@ -15,7 +15,7 @@ class ReviewerManager:
 
 
     def filterConflicts(self, reviewerList):
-        print("ReviewerManager: filterConflicts(", reviewerList, ")")
+        print("ReviewerManager: filterConflicts -", reviewerList)
         filteredReviewers = []
         
         for reviewer in reviewerList:
@@ -25,7 +25,7 @@ class ReviewerManager:
         return filteredReviewers
 
     def checkWorkload(self, reviewerList):
-        print("ReviewerManager: checkWorkload(", reviewerList, ")")
+        print("ReviewerManager: checkWorkload -", reviewerList)
         filteredReviewers = []
 
         for reviewer in reviewerList:

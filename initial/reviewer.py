@@ -6,8 +6,8 @@ class Reviewer:
         self.evaluationManager = evaluationManager
 
     def assignReview(self, reviewer):
-        print("Reviewer:", self.name, "assignReview(", reviewer, ")")
+        print("Reviewer:", self.name, "assignReview -", reviewer)
 
     def submitScore(self, score):
-        print("Reviewer:", self.name, "submitScore(", score, ")")
+        print("Reviewer:", self.name, "submitScore -", score)
         self.evaluationManager.submitScore(score)

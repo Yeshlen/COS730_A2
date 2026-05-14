@@ -59,4 +59,4 @@ class EvaluationManager:
         elif self.average < 4:
             return "Rejected"
         else:
-            return "Revision"
+            return "Revision Needed"

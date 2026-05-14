@@ -3,8 +3,8 @@ class Reviewer:
         self.name = name
 
     def assignReview(self, data):
-        print("Reviewer:", self.name, "assignReview(", data, ")")
+        print("Reviewer:", self.name, "assignReview -", data)
 
     def submitScore(self, score):
-        print("Reviewer:", self.name, "submitScore(", score, ")")
+        print("Reviewer:", self.name, "submitScore -", score)
         return score

@@ -13,7 +13,7 @@ class SubmissionController:
         self.evaluationManager = EvaluationManager()
         
     def submit(self, data):
-        print("SubmissionController: submit(", data, ")")
+        print("SubmissionController: submit -", data)
         response = self.validator.validateFormat(data)
         
         if response:
